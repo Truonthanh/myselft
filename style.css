@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to right, #081f5c, #7096d1);
+  padding: 45px;
+  color: aliceblue;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  box-shadow: 9px 8px 17px 6px rgba(0, 0, 0, 0.73);
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  margin: 10px 0 8px 0;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  width: 510px;
+  font-size: 15px;
+}
+.button {
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  border: 0;
+  width: 300px;
+  padding: 15px 0 15px 0;
+  border-radius: 100px;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+  box-shadow: 9px 8px 17px 6px rgba(0, 0, 0, 0.73);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #334eac;
+  background-color: black;
+}
